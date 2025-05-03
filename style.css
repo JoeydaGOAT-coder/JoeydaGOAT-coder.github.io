@@ -1,8 +1,11 @@
 h1 {
-  background-color: rgb(124, 30, 255)
+  background-color: rgb(124, 30, 255);
+}
+p {
+  background-color: rgb(152, 79, 255);
 }
 a:link, a:hover, a:visited, a:active {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  text-align: center
+  text-align: center;
 }
