@@ -4,7 +4,5 @@ let moneyPerClick = 1;
 const coinClicked = () => {
   money = money+moneyPerClick;
 };
-while (nothing) {
   document.getElementById("coin").onclick = coinClicked;
   document.write("money: $" + money)
-}
