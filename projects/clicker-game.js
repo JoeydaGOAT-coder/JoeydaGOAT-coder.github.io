@@ -4,5 +4,6 @@ let moneyPerClick = 1;
 const coinClicked = () => {
   money = money+moneyPerClick;
 };
-  document.getElementById("coin").onclick = coinClicked;
+if (document.getElementById("coin").onclick) {
   document.write("money: $" + money)
+}
