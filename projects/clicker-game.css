@@ -1,4 +1,4 @@
-#output {
+#output, #output1, #output2, {
   height: 50px;
   width: 50px;
   background-color: yellow;
