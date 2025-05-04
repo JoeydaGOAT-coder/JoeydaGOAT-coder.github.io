@@ -8,6 +8,6 @@ window.addEventListener('load', () => {
     return moneyPerClick+money;
   };
   button.addEventListener('click', () => {
-    output.textContent = coinClicked();
+    output.textContent = "money: " + coinClicked();
   });
 });
