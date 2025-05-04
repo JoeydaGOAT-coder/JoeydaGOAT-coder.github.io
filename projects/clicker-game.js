@@ -1,4 +1,3 @@
-const nothing = true
 let money = 0;
 let moneyPerClick = 1;
 const coinClicked = () => {
