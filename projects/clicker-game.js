@@ -1,7 +1,6 @@
-let money = 0;
-let moneyPerClick = 1;
-const coinClicked = () => {
-  money = money+moneyPerClick;
+let numberClicked = 0;
+const clicked = () => {
+  numberClicked = numberClicked+1;
 };
-document.getElementById("coin").onClick = coinClicked;
-document.write("money: $" + money);
+document.getElementById("id").onClick = clicked;
+document.write("clicked " + numberClicked + " times");
