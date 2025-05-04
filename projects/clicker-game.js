@@ -1,6 +1,12 @@
-let numberClicked = 0;
-const clicked = () => {
-  numberClicked = numberClicked+1;
-};
-document.getElementById("id").onClick = clicked;
-document.write("clicked " + numberClicked + " times");
+window.addEventListener('load', () => { 
+  const button = document.getElementById("add");
+  const output = document.getElementById("output");
+
+  let money = 0;
+  const coinClicked = () => {
+    return ++money;
+  };
+  button.addEventListener('click', () => {
+    output.textContent = coinClickedlicked();
+  });
+});
