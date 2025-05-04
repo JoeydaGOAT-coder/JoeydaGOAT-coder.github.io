@@ -3,8 +3,9 @@ window.addEventListener('load', () => {
   const output = document.getElementById("output");
 
   let money = 0;
+  let moneyPerClick = 1;
   const coinClicked = () => {
-    return ++money;
+    return moneyPerClick+money;
   };
   button.addEventListener('click', () => {
     output.textContent = coinClicked();
