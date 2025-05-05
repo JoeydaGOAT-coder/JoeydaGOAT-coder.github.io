@@ -3,11 +3,21 @@ window.addEventListener('load', () => {
   const output = document.getElementById("output");
   const button1 = document.getElementById("add1");
   const output1 = document.getElementById("output1");
+  const button2 = document.getElementById("add2");
+  const output2 = document.getElementById("output2");
   
   let money = 0;
   let moneyPerClick = 1;
+  let moneyPerSecond = 1;
   let numOfCoinUpgrades = 0;
   let costOfCoinUpgrade = 100;
+  let numOfAutoClickers = 0
+  let costOfAutoClicker = 15
+
+  setInterval(function () {
+    money += moneyPerSecond;
+    output.textContent = "money: " + money;
+  }, 1000);
   
   const coinClicked = () => {
     money += moneyPerClick
