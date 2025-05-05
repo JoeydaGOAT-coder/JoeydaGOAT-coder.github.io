@@ -1,5 +1,10 @@
-#output, #output1, #output2, {
+#output {
   height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+#output2 {
+  height: 100px;
   width: 50px;
   background-color: yellow;
 }
