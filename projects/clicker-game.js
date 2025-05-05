@@ -51,7 +51,7 @@ window.addEventListener('load', () => {
     output.textContent = "money: " + coinUpgradeClicked();
     output1.textContent = "number: " + numOfCoinUpgrades + " cost: " + costOfCoinUpgrade;
   });
-  button2.eddEventListener('click', () => {
+  button2.addEventListener('click', () => {
     output.textContent = "money: " + autoClickerClicked();
     output2.textContent = "number: " + numOfAutoClickers + " cost: " + costOfAutoClicker;
   });
