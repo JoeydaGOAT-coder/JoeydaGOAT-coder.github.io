@@ -16,23 +16,11 @@ window.addEventListener('load', () => {
   const coinUpgradeClicked = () => {
     if (money >= costOfCoinUpgrade) {
       money -= costOfCoinUpgrade;
-    };
-    return money;
-  };
-  const coinUpgradeClicked1 = () => {
-    if (money >= costOfCoinUpgrade) {
       costOfCoinUpgrade *= 1.15;
       costOfCoinUpgrade = Math.round(costOfCoinUpgrade);
       numOfCoinUpgrades += 1;
-      return numOfCoinUpgrades
-    } else {
-      return numOfCoinUpgrades;
     };
-  };
-  const coinUpgradeClicked2 = () => {
-    if (money >= costOfCoinUpgrade) {
-    };
-    return costOfCoinUpgrade;
+    return money;
   };
   
   button.addEventListener('click', () => {
@@ -40,6 +28,6 @@ window.addEventListener('load', () => {
   });
   button1.addEventListener('click', () => {
     output.textContent = "money: " + coinUpgradeClicked();
-    output1.textContent = "number: " + coinUpgradeClicked1() + " cost: " + coinUpgradeClicked2();
+    output1.textContent = "number: " + numOfCoinUpgrades + " cost: " + costOfCoinUpgrade;
   });
 });
