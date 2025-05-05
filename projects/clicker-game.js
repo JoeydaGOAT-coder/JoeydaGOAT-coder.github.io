@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
   
   let money = 0;
   let moneyPerClick = 1;
-  let moneyPerSecond = 1;
+  let moneyPerSecond = 0;
   let numOfCoinUpgrades = 0;
   let costOfCoinUpgrade = 100;
   let numOfAutoClickers = 0
@@ -33,6 +33,16 @@ window.addEventListener('load', () => {
     };
     return money;
   };
+  const autoClickerClicked = () => {
+    if (money >= costOfAutoClicker) {
+      money -= costOfAutoClicker;
+      costOfAutoClicker *= 1.15;
+      costOfAutoClicker = Math.round(costOfAutoClicker);
+      numOfAutoClickers += 1;
+      moneyPerSecond += 1;
+    };
+    return money;
+  };
   
   button.addEventListener('click', () => {
     output.textContent = "money: " + coinClicked();
@@ -40,5 +50,9 @@ window.addEventListener('load', () => {
   button1.addEventListener('click', () => {
     output.textContent = "money: " + coinUpgradeClicked();
     output1.textContent = "number: " + numOfCoinUpgrades + " cost: " + costOfCoinUpgrade;
+  });
+  button2.eddEventListener('click', () => {
+    output.textContent = "money: " + coinUpgradeClicked();
+    output2.textContent = "number: " + numOfAutoClickers + " cost: " + costOfAutoClicker;
   });
 });
