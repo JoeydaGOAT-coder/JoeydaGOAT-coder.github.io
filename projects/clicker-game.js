@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   let money = 0;
   let moneyPerClick = 1;
   let numOfCoinUpgrades = 0;
-  let costOfCoinUpgrade = 10;
+  let costOfCoinUpgrade = 100;
   
   const coinClicked = () => {
     money += moneyPerClick
