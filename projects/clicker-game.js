@@ -24,6 +24,7 @@ window.addEventListener('load', () => {
       costOfCoinUpgrade *= 1.15;
       costOfCoinUpgrade = Math.round(costOfCoinUpgrade);
       ++ numOfCoinUpgrades;
+    } else {
       return numOfCoinUpgrades;
     };
   };
