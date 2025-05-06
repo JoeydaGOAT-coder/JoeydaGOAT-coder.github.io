@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
   const button17 = document.getElementById("add17");
   const output17 = document.getElementById("output17");
   
-  let money = 0;
+  let money = 999999999999999999999;
   let moneyPerClick = 1;
   let moneyPerSecond = 0;
   
@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
   let costOfCpsUpgrade1 = 15;
   let costOfCpsUpgrade2 = 100;
   let costOfCpsUpgrade3 = 1100;
-  let costOfCpsUpgrade4 = 2000;
+  let costOfCpsUpgrade4 = 20000;
   let costOfCpsUpgrade5 = 130000;
   let costOfCpsUpgrade6 = 1400000;
   let costOfCpsUpgrade7 = 20000000;
@@ -287,7 +287,98 @@ window.addEventListener('load', () => {
   });
 
   button2.addEventListener('click', () => {
-    output.textContent = "money: " + autoClickerClicked();
-    output2.textContent = "number: " + numOfAutoClickers + " cost: " + costOfAutoClicker;
+    output.textContent = "money: " + upgradeClicked2();
+    output2.textContent = "number: " + numOfUpgrade2 + " cost: " + costOfUpgrade2;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button3.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked3();
+    output3.textContent = "number: " + numOfUpgrade3 + " cost: " + costOfUpgrade3;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button4.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked4();
+    output4.textContent = "number: " + numOfUpgrade4 + " cost: " + costOfUpgrade4;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button5.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked5();
+    output5.textContent = "number: " + numOfUpgrade5 + " cost: " + costOfUpgrade5;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button6.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked6();
+    output6.textContent = "number: " + numOfUpgrade6 + " cost: " + costOfUpgrade6;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button7.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked7();
+    output7.textContent = "number: " + numOfUpgrade7 + " cost: " + costOfUpgrade7;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button8.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked8();
+    output8.textContent = "number: " + numOfUpgrade8 + " cost: " + costOfUpgrade8;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button9.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked9();
+    output9.textContent = "number: " + numOfUpgrade9 + " cost: " + costOfUpgrade9;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button10.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked10();
+    output10.textContent = "number: " + numOfUpgrade10 + " cost: " + costOfUpgrade10;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button11.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked11();
+    output11.textContent = "number: " + numOfUpgrade11 + " cost: " + costOfUpgrade11;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button12.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked12();
+    output12.textContent = "number: " + numOfUpgrade12 + " cost: " + costOfUpgrade12;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button13.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked13();
+    output13.textContent = "number: " + numOfUpgrade13 + " cost: " + costOfUpgrade13;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button14.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked14();
+    output14.textContent = "number: " + numOfUpgrade14 + " cost: " + costOfUpgrade14;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button15.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked15();
+    output15.textContent = "number: " + numOfUpgrade15 + " cost: " + costOfUpgrade15;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button16.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked16();
+    output16.textContent = "number: " + numOfUpgrade16 + " cost: " + costOfUpgrade16;
+    dps.textContent = "dps: " + moneyPerSecond;
+  });
+
+  button17.addEventListener('click', () => {
+    output.textContent = "money: " + upgradeClicked17();
+    output17.textContent = "number: " + numOfUpgrade17 + " cost: " + costOfUpgrade17;
+    dps.textContent = "dps: " + moneyPerSecond;
   });
 });
