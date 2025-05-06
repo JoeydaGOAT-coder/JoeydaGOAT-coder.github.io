@@ -90,11 +90,11 @@ window.addEventListener('load', () => {
   let dpsOfUpgrade10 = ;
   let dpsOfUpgrade11 = ;
   let dpsOfUpgrade12 = ;
-  let dpsOfUpgrade13 = ;
-  let dpsOfUpgrade14 = ;
-  let dpsOfUpgrade15 = ;
-  let dpsOfUpgrade16 = ;
-  let dpsOfUpgrade17 = ;
+  let dpsOfUpgrade13 = 430000000;
+  let dpsOfUpgrade14 = 2900000000;
+  let dpsOfUpgrade15 = 21000000000;
+  let dpsOfUpgrade16 = 150000000000;
+  let dpsOfUpgrade17 = 1100000000000;
   
   setInterval(function () {
     money += moneyPerSecond;
