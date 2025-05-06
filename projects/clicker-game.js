@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
   const button17 = document.getElementById("add17");
   const output17 = document.getElementById("output17");
   
-  let money = 999999999999999999999;
+  let money = 0;
   let moneyPerClick = 1;
   let moneyPerSecond = 0;
   
