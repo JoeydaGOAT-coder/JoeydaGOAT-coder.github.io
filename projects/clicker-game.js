@@ -77,6 +77,24 @@ window.addEventListener('load', () => {
   let costOfCpsUpgrade15 = 26000000000000000;
   let costOfCpsUpgrade16 = 310000000000000000;
   let costOfCpsUpgrade17 = 71000000000000000000;
+
+  let dpsOfUpgrade1 = 0.1;
+  let dpsOfUpgrade2 = 1;
+  let dpsOfUpgrade3 = ;
+  let dpsOfUpgrade4 = ;
+  let dpsOfUpgrade5 = ;
+  let dpsOfUpgrade6 = ;
+  let dpsOfUpgrade7 = ;
+  let dpsOfUpgrade8 = ;
+  let dpsOfUpgrade9 = ;
+  let dpsOfUpgrade10 = ;
+  let dpsOfUpgrade11 = ;
+  let dpsOfUpgrade12 = ;
+  let dpsOfUpgrade13 = ;
+  let dpsOfUpgrade14 = ;
+  let dpsOfUpgrade15 = ;
+  let dpsOfUpgrade16 = ;
+  let dpsOfUpgrade17 = ;
   
   setInterval(function () {
     money += moneyPerSecond;
@@ -94,7 +112,7 @@ window.addEventListener('load', () => {
       costOfUpgrade1 *= 1.15;
       costOfUpgrade1 = Math.round(costOfUpgrade1);
       numOfUpgrade1 += 1;
-      moneyPerSecond += 0.1;
+      moneyPerSecond += dpsOfUpgrade1;
     };
     return money;
   };
@@ -105,7 +123,7 @@ window.addEventListener('load', () => {
       costOfUpgrade2 *= 1.15;
       costOfUpgrade2 = Math.round(costOfUpgrade2);
       numOfUpgrade2 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade2;
     };
     return money;
   };
@@ -116,7 +134,7 @@ window.addEventListener('load', () => {
       costOfUpgrade3 *= 1.15;
       costOfUpgrade3 = Math.round(costOfUpgrade3);
       numOfUpgrade3 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade3;
     };
     return money;
   };
@@ -127,7 +145,7 @@ window.addEventListener('load', () => {
       costOfUpgrade4 *= 1.15;
       costOfUpgrade4 = Math.round(costOfUpgrade4);
       numOfUpgrade4 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade4;
     };
     return money;
   };
@@ -138,7 +156,7 @@ window.addEventListener('load', () => {
       costOfUpgrade5 *= 1.15;
       costOfUpgrade5 = Math.round(costOfUpgrade5);
       numOfUpgrade5 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade5;
     };
     return money;
   };
@@ -149,7 +167,7 @@ window.addEventListener('load', () => {
       costOfUpgrade6 *= 1.15;
       costOfUpgrade6 = Math.round(costOfUpgrade6);
       numOfUpgrade6 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade6;
     };
     return money;
   };
@@ -160,7 +178,7 @@ window.addEventListener('load', () => {
       costOfUpgrade7 *= 1.15;
       costOfUpgrade7 = Math.round(costOfUpgrade7);
       numOfUpgrade7 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade7;
     };
     return money;
   };
@@ -171,7 +189,7 @@ window.addEventListener('load', () => {
       costOfUpgrade8 *= 1.15;
       costOfUpgrade8 = Math.round(costOfUpgrade8);
       numOfUpgrade8 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade8;
     };
     return money;
   };
@@ -182,7 +200,7 @@ window.addEventListener('load', () => {
       costOfUpgrade9 *= 1.15;
       costOfUpgrade9 = Math.round(costOfUpgrade9);
       numOfUpgrade9 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade9;
     };
     return money;
   };
@@ -193,7 +211,7 @@ window.addEventListener('load', () => {
       costOfUpgrade10 *= 1.15;
       costOfUpgrade10 = Math.round(costOfUpgrade10);
       numOfUpgrade10 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade10;
     };
     return money;
   };
@@ -204,7 +222,7 @@ window.addEventListener('load', () => {
       costOfUpgrade11 *= 1.15;
       costOfUpgrade11 = Math.round(costOfUpgrade11);
       numOfUpgrade11 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade11;
     };
     return money;
   };
@@ -215,7 +233,7 @@ window.addEventListener('load', () => {
       costOfUpgrade12 *= 1.15;
       costOfUpgrade12 = Math.round(costOfUpgrade12);
       numOfUpgrade12 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade12;
     };
     return money;
   };
@@ -226,7 +244,7 @@ window.addEventListener('load', () => {
       costOfUpgrade13 *= 1.15;
       costOfUpgrade13 = Math.round(costOfUpgrade13);
       numOfUpgrade13 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade13;
     };
     return money;
   };
@@ -237,7 +255,7 @@ window.addEventListener('load', () => {
       costOfUpgrade14 *= 1.15;
       costOfUpgrade14 = Math.round(costOfUpgrade14);
       numOfUpgrade14 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade14;
     };
     return money;
   };
@@ -248,7 +266,7 @@ window.addEventListener('load', () => {
       costOfUpgrade15 *= 1.15;
       costOfUpgrade15 = Math.round(costOfUpgrade15);
       numOfUpgrade15 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade15;
     };
     return money;
   };
@@ -259,7 +277,7 @@ window.addEventListener('load', () => {
       costOfUpgrade16 *= 1.15;
       costOfUpgrade16 = Math.round(costOfUpgrade16);
       numOfUpgrade16 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade16;
     };
     return money;
   };
@@ -270,7 +288,7 @@ window.addEventListener('load', () => {
       costOfUpgrade17 *= 1.15;
       costOfUpgrade17 = Math.round(costOfUpgrade17);
       numOfUpgrade17 += 1;
-      moneyPerSecond += ;
+      moneyPerSecond += dpsOfUpgrade17;
     };
     return money;
   };
