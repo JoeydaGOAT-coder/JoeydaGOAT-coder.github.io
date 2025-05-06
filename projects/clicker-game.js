@@ -80,7 +80,7 @@ window.addEventListener('load', () => {
 
   let dpsOfUpgrade1 = 0.1;
   let dpsOfUpgrade2 = 1;
-  let dpsOfUpgrade3 = ;
+  let dpsOfUpgrade3 = 8;
   let dpsOfUpgrade4 = ;
   let dpsOfUpgrade5 = ;
   let dpsOfUpgrade6 = ;
