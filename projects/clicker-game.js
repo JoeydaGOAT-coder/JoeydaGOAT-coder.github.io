@@ -62,7 +62,7 @@ window.addEventListener('load', () => {
   
   let costOfCpsUpgrade1 = 15;
   let costOfCpsUpgrade2 = 100;
-  let costOfCpsUpgrade3 = 
+  let costOfCpsUpgrade3 = 1100;
   let costOfCpsUpgrade4 = 
   let costOfCpsUpgrade5 = 
   let costOfCpsUpgrade6 = 
