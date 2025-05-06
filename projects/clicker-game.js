@@ -88,7 +88,6 @@ window.addEventListener('load', () => {
     return money;
   };
   
-  };
   const upgradeClicked1 = () => {
     if (money >= costOfUpgrade1) {
       money -= costOfUpgrade1;
