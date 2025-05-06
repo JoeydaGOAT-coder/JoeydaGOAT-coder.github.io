@@ -76,7 +76,7 @@ window.addEventListener('load', () => {
   let costOfCpsUpgrade14 = 2100000000000000;
   let costOfCpsUpgrade15 = 26000000000000000;
   let costOfCpsUpgrade16 = 310000000000000000;
-  let costOfCpsUpgrade17 = 
+  let costOfCpsUpgrade17 = 71000000000000000000;
   
   setInterval(function () {
     money += moneyPerSecond;
@@ -89,13 +89,189 @@ window.addEventListener('load', () => {
   };
   
   };
-  const autoClickerClicked = () => {
-    if (money >= costOfAutoClicker) {
-      money -= costOfAutoClicker;
-      costOfAutoClicker *= 1.15;
-      costOfAutoClicker = Math.round(costOfAutoClicker);
-      numOfAutoClickers += 1;
+  const upgradeClicked1 = () => {
+    if (money >= costOfUpgrade1) {
+      money -= costOfUpgrade1;
+      costOfUpgrade1 *= 1.15;
+      costOfUpgrade1 = Math.round(costOfUpgrade1);
+      numOfUpgrade1 += 1;
       moneyPerSecond += 0.1;
+    };
+    return money;
+  };
+
+  const upgradeClicked2 = () => {
+    if (money >= costOfUpgrade2) {
+      money -= costOfUpgrade2;
+      costOfUpgrade2 *= 1.15;
+      costOfUpgrade2 = Math.round(costOfUpgrade2);
+      numOfUpgrade2 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked3 = () => {
+    if (money >= costOfUpgrade3) {
+      money -= costOfUpgrade3;
+      costOfUpgrade3 *= 1.15;
+      costOfUpgrade3 = Math.round(costOfUpgrade3);
+      numOfUpgrade3 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked4 = () => {
+    if (money >= costOfUpgrade4) {
+      money -= costOfUpgrade4;
+      costOfUpgrade4 *= 1.15;
+      costOfUpgrade4 = Math.round(costOfUpgrade4);
+      numOfUpgrade4 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked5 = () => {
+    if (money >= costOfUpgrade5) {
+      money -= costOfUpgrade5;
+      costOfUpgrade5 *= 1.15;
+      costOfUpgrade5 = Math.round(costOfUpgrade5);
+      numOfUpgrade5 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked6 = () => {
+    if (money >= costOfUpgrade6) {
+      money -= costOfUpgrade6;
+      costOfUpgrade6 *= 1.15;
+      costOfUpgrade6 = Math.round(costOfUpgrade6);
+      numOfUpgrade6 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked7 = () => {
+    if (money >= costOfUpgrade7) {
+      money -= costOfUpgrade7;
+      costOfUpgrade7 *= 1.15;
+      costOfUpgrade7 = Math.round(costOfUpgrade7);
+      numOfUpgrade7 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked8 = () => {
+    if (money >= costOfUpgrade8) {
+      money -= costOfUpgrade8;
+      costOfUpgrade8 *= 1.15;
+      costOfUpgrade8 = Math.round(costOfUpgrade8);
+      numOfUpgrade8 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked9 = () => {
+    if (money >= costOfUpgrade9) {
+      money -= costOfUpgrade9;
+      costOfUpgrade9 *= 1.15;
+      costOfUpgrade9 = Math.round(costOfUpgrade9);
+      numOfUpgrade9 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked10 = () => {
+    if (money >= costOfUpgrade10) {
+      money -= costOfUpgrade10;
+      costOfUpgrade10 *= 1.15;
+      costOfUpgrade10 = Math.round(costOfUpgrade10);
+      numOfUpgrade10 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked11 = () => {
+    if (money >= costOfUpgrade11) {
+      money -= costOfUpgrade11;
+      costOfUpgrade11 *= 1.15;
+      costOfUpgrade11 = Math.round(costOfUpgrade11);
+      numOfUpgrade11 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked12 = () => {
+    if (money >= costOfUpgrade12) {
+      money -= costOfUpgrade12;
+      costOfUpgrade12 *= 1.15;
+      costOfUpgrade12 = Math.round(costOfUpgrade12);
+      numOfUpgrade12 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked13 = () => {
+    if (money >= costOfUpgrade13) {
+      money -= costOfUpgrade13;
+      costOfUpgrade13 *= 1.15;
+      costOfUpgrade13 = Math.round(costOfUpgrade13);
+      numOfUpgrade13 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked14 = () => {
+    if (money >= costOfUpgrade14) {
+      money -= costOfUpgrade14;
+      costOfUpgrade14 *= 1.15;
+      costOfUpgrade14 = Math.round(costOfUpgrade14);
+      numOfUpgrade14 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked15 = () => {
+    if (money >= costOfUpgrade15) {
+      money -= costOfUpgrade15;
+      costOfUpgrade15 *= 1.15;
+      costOfUpgrade15 = Math.round(costOfUpgrade15);
+      numOfUpgrade15 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked16 = () => {
+    if (money >= costOfUpgrade16) {
+      money -= costOfUpgrade16;
+      costOfUpgrade16 *= 1.15;
+      costOfUpgrade16 = Math.round(costOfUpgrade16);
+      numOfUpgrade16 += 1;
+      moneyPerSecond += ;
+    };
+    return money;
+  };
+
+  const upgradeClicked17 = () => {
+    if (money >= costOfUpgrade17) {
+      money -= costOfUpgrade17;
+      costOfUpgrade17 *= 1.15;
+      costOfUpgrade17 = Math.round(costOfUpgrade17);
+      numOfUpgrade17 += 1;
+      moneyPerSecond += ;
     };
     return money;
   };
@@ -103,10 +279,12 @@ window.addEventListener('load', () => {
   button.addEventListener('click', () => {
     output.textContent = "money: " + coinClicked();
   });
+
   button1.addEventListener('click', () => {
-    output.textContent = "money: " + coinUpgradeClicked();
-    output1.textContent = "number: " + numOfCoinUpgrades + " cost: " + costOfCoinUpgrade;
+    output.textContent = "money: " + upgradeClicked1();
+    output1.textContent = "number: " + numOfUpgrade1 + " cost: " + costOfUpgrade1;
   });
+
   button2.addEventListener('click', () => {
     output.textContent = "money: " + autoClickerClicked();
     output2.textContent = "number: " + numOfAutoClickers + " cost: " + costOfAutoClicker;
