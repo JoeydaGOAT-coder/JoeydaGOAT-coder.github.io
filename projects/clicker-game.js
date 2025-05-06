@@ -283,6 +283,7 @@ window.addEventListener('load', () => {
   button1.addEventListener('click', () => {
     output.textContent = "money: " + upgradeClicked1();
     output1.textContent = "number: " + numOfUpgrade1 + " cost: " + costOfUpgrade1;
+    dps.textContent = "dps: " + moneyPerSecond;
   });
 
   button2.addEventListener('click', () => {
