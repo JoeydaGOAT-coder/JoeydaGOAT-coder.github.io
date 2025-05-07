@@ -97,7 +97,7 @@ window.addEventListener('load', () => {
   let dpsOfUpgrade17 = 1100000000000;
   
   setInterval(function () {
-    money += moneyPerSecond;
+    money += moneyPerSecond.toFixed(1);
     output.textContent = "money: " + money;
   }, 1000);
   
@@ -112,7 +112,7 @@ window.addEventListener('load', () => {
       costOfUpgrade1 *= 1.15;
       costOfUpgrade1 = Math.round(costOfUpgrade1);
       numOfUpgrade1 += 1;
-      moneyPerSecond += dpsOfUpgrade1;
+      moneyPerSecond += dpsOfUpgrade1.toFixed(1);
     };
     return money;
   };
