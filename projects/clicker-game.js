@@ -5,38 +5,82 @@ window.addEventListener('load', () => {
   
   const button1 = document.getElementById("add1");
   const output1 = document.getElementById("output1");
+  
   const button2 = document.getElementById("add2");
   const output2 = document.getElementById("output2");
+  
   const button3 = document.getElementById("add3");
   const output3 = document.getElementById("output3");
+  
   const button4 = document.getElementById("add4");
   const output4 = document.getElementById("output4");
+  
   const button5 = document.getElementById("add5");
   const output5 = document.getElementById("output5");
+  
   const button6 = document.getElementById("add6");
   const output6 = document.getElementById("output6");
+  
   const button7 = document.getElementById("add7");
   const output7 = document.getElementById("output7");
+  
   const button8 = document.getElementById("add8");
   const output8 = document.getElementById("output8");
+  
   const button9 = document.getElementById("add9");
   const output9 = document.getElementById("output9");
+  
   const button10 = document.getElementById("add10");
   const output10 = document.getElementById("output10");
+  
   const button11 = document.getElementById("add11");
   const output11 = document.getElementById("output11");
+  
   const button12 = document.getElementById("add12");
   const output12 = document.getElementById("output12");
+  
   const button13 = document.getElementById("add13");
   const output13 = document.getElementById("output13");
+  
   const button14 = document.getElementById("add14");
   const output14 = document.getElementById("output14");
+  
   const button15 = document.getElementById("add15");
   const output15 = document.getElementById("output15");
+  
   const button16 = document.getElementById("add16");
   const output16 = document.getElementById("output16");
+  
   const button17 = document.getElementById("add17");
   const output17 = document.getElementById("output17");
+
+  const aButton1 = document.getElementById("aAdd1");
+  const aButton2 = document.getElementById("aAdd2");
+  const aButton3 = document.getElementById("aAdd3");
+  const aButton4 = document.getElementById("aAdd4");
+  const aButton5 = document.getElementById("aAdd5");
+  const aButton6 = document.getElementById("aAdd6");
+  const aButton7 = document.getElementById("aAdd7");
+  const aButton8 = document.getElementById("aAdd8");
+  const aButton9 = document.getElementById("aAdd9");
+  const aButton10 = document.getElementById("aAdd10");
+  const aButton11 = document.getElementById("aAdd11");
+  const aButton12 = document.getElementById("aAdd12");
+  const aButton13 = document.getElementById("aAdd13");
+
+  const aOutput1 = document.getElementById("aOutput1");
+  const aOutput2 = document.getElementById("aOutput2");
+  const aOutput3 = document.getElementById("aOutput3");
+  const aOutput4 = document.getElementById("aOutput4");
+  const aOutput5 = document.getElementById("aOutput5");
+  const aOutput6 = document.getElementById("aOutput6");
+  const aOutput7 = document.getElementById("aOutput7");
+  const aOutput8 = document.getElementById("aOutput8");
+  const aOutput9 = document.getElementById("aOutput9");
+  const aOutput10 = document.getElementById("aOutput10");
+  const aOutput11 = document.getElementById("aOutput11");
+  const aOutput12 = document.getElementById("aOutput12");
+  const aOutput13 = document.getElementById("aOutput13");
   
   let money = 0;
   let moneyPerClick = 1;
@@ -95,9 +139,23 @@ window.addEventListener('load', () => {
   let dpsOfUpgrade15 = 21000000000;
   let dpsOfUpgrade16 = 150000000000;
   let dpsOfUpgrade17 = 1100000000000;
+
+  const costOfAUpgrade1 = ;
+  const costOfAUpgrade2 = ;
+  const costOfAUpgrade3 = ;
+  const costOfAUpgrade4 = ;
+  const costOfAUpgrade5 = ;
+  const costOfAUpgrade6 = ;
+  const costOfAUpgrade7 = ;
+  const costOfAUpgrade8 = ;
+  const costOfAUpgrade9 = ;
+  const costOfAUpgrade10 = ;
+  const costOfAUpgrade11 = ;
+  const costOfAUpgrade12 = ;
+  const costOfAUpgrade13 = ;
   
   setInterval(function () {
-    money += moneyPerSecond.toFixed(1);
+    money += moneyPerSecond;
     output.textContent = "money: " + money;
   }, 1000);
   
@@ -112,7 +170,7 @@ window.addEventListener('load', () => {
       costOfUpgrade1 *= 1.15;
       costOfUpgrade1 = Math.round(costOfUpgrade1);
       numOfUpgrade1 += 1;
-      moneyPerSecond += dpsOfUpgrade1.toString().toFixed(1);
+      moneyPerSecond += dpsOfUpgrade1;
     };
     return money;
   };
@@ -123,7 +181,7 @@ window.addEventListener('load', () => {
       costOfUpgrade2 *= 1.15;
       costOfUpgrade2 = Math.round(costOfUpgrade2);
       numOfUpgrade2 += 1;
-      moneyPerSecond += dpsOfUpgrade2.toString();
+      moneyPerSecond += dpsOfUpgrade2;
     };
     return money;
   };
@@ -134,7 +192,7 @@ window.addEventListener('load', () => {
       costOfUpgrade3 *= 1.15;
       costOfUpgrade3 = Math.round(costOfUpgrade3);
       numOfUpgrade3 += 1;
-      moneyPerSecond += dpsOfUpgrade3.toString();
+      moneyPerSecond += dpsOfUpgrade3;
     };
     return money;
   };
@@ -145,7 +203,7 @@ window.addEventListener('load', () => {
       costOfUpgrade4 *= 1.15;
       costOfUpgrade4 = Math.round(costOfUpgrade4);
       numOfUpgrade4 += 1;
-      moneyPerSecond += dpsOfUpgrade4.toString();
+      moneyPerSecond += dpsOfUpgrade4;
     };
     return money;
   };
@@ -156,7 +214,7 @@ window.addEventListener('load', () => {
       costOfUpgrade5 *= 1.15;
       costOfUpgrade5 = Math.round(costOfUpgrade5);
       numOfUpgrade5 += 1;
-      moneyPerSecond += dpsOfUpgrade5.toString();
+      moneyPerSecond += dpsOfUpgrade5;
     };
     return money;
   };
@@ -167,7 +225,7 @@ window.addEventListener('load', () => {
       costOfUpgrade6 *= 1.15;
       costOfUpgrade6 = Math.round(costOfUpgrade6);
       numOfUpgrade6 += 1;
-      moneyPerSecond += dpsOfUpgrade6.toString();
+      moneyPerSecond += dpsOfUpgrade6;
     };
     return money;
   };
@@ -178,7 +236,7 @@ window.addEventListener('load', () => {
       costOfUpgrade7 *= 1.15;
       costOfUpgrade7 = Math.round(costOfUpgrade7);
       numOfUpgrade7 += 1;
-      moneyPerSecond += dpsOfUpgrade7.toString();
+      moneyPerSecond += dpsOfUpgrade7;
     };
     return money;
   };
@@ -189,7 +247,7 @@ window.addEventListener('load', () => {
       costOfUpgrade8 *= 1.15;
       costOfUpgrade8 = Math.round(costOfUpgrade8);
       numOfUpgrade8 += 1;
-      moneyPerSecond += dpsOfUpgrade8.toString();
+      moneyPerSecond += dpsOfUpgrade8;
     };
     return money;
   };
@@ -200,7 +258,7 @@ window.addEventListener('load', () => {
       costOfUpgrade9 *= 1.15;
       costOfUpgrade9 = Math.round(costOfUpgrade9);
       numOfUpgrade9 += 1;
-      moneyPerSecond += dpsOfUpgrade9.toString();
+      moneyPerSecond += dpsOfUpgrade9;
     };
     return money;
   };
@@ -211,7 +269,7 @@ window.addEventListener('load', () => {
       costOfUpgrade10 *= 1.15;
       costOfUpgrade10 = Math.round(costOfUpgrade10);
       numOfUpgrade10 += 1;
-      moneyPerSecond += dpsOfUpgrade10.toString();
+      moneyPerSecond += dpsOfUpgrade10;
     };
     return money;
   };
