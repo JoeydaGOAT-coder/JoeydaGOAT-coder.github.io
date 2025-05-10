@@ -66,7 +66,6 @@ window.addEventListener('load', () => {
   const aButton10 = document.getElementById("aAdd10");
   const aButton11 = document.getElementById("aAdd11");
   const aButton12 = document.getElementById("aAdd12");
-  const aButton13 = document.getElementById("aAdd13");
 
   const aOutput1 = document.getElementById("aOutput1");
   const aOutput2 = document.getElementById("aOutput2");
@@ -80,7 +79,8 @@ window.addEventListener('load', () => {
   const aOutput10 = document.getElementById("aOutput10");
   const aOutput11 = document.getElementById("aOutput11");
   const aOutput12 = document.getElementById("aOutput12");
-  const aOutput13 = document.getElementById("aOutput13");
+
+  const aDecription = document.getElementById("aDescription");
   
   let money = 0;
   let moneyPerClick = 1;
@@ -152,7 +152,33 @@ window.addEventListener('load', () => {
   const costOfAUpgrade10 = ;
   const costOfAUpgrade11 = ;
   const costOfAUpgrade12 = ;
-  const costOfAUpgrade13 = ;
+
+  const aUpgradeClicked1 = () => {
+    if (money >= costOfAUpgrade1) {
+      money -= costOfAUpgrade1;
+      moneyPerClick *= 2;
+      moneyPerSecond += dpsOfUpgrade1*numOfUpgrade1;
+      dpsOfUpgrade1 *= 2;
+    };
+  };
+
+   const aUpgradeClicked2 = () => {
+    if (money >= costOfAUpgrade2) {
+      money -= costOfAUpgrade2;
+      moneyPerClick *= 2;
+      moneyPerSecond += dpsOfUpgrade1*numOfUpgrade1;
+      dpsOfUpgrade1 *= 2;
+    };
+  };
+
+   const aUpgradeClicked3 = () => {
+    if (money >= costOfAUpgrade3) {
+      money -= costOfAUpgrade3;
+      moneyPerClick *= 2;
+      moneyPerSecond += dpsOfUpgrade1*numOfUpgrade1;
+      dpsOfUpgrade1 *= 2;
+    };
+  };
   
   setInterval(function () {
     money += moneyPerSecond;
