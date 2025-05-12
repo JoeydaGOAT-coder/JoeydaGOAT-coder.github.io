@@ -153,6 +153,16 @@ window.addEventListener('load', () => {
   const costOfAUpgrade11 = ;
   const costOfAUpgrade12 = ;
 
+  let aUpgradebought4 = false;
+  let aUpgradebought5 = false;
+  let aUpgradebought6 = false;
+  let aUpgradebought7 = false;
+  let aUpgradebought8 = false;
+  let aUpgradebought9 = false;
+  let aUpgradebought10 = false;
+  let aUpgradebought11 = false;
+  let aUpgradebought12 = false;
+
   const aUpgradeClicked1 = () => {
     if (money >= costOfAUpgrade1) {
       money -= costOfAUpgrade1;
@@ -162,7 +172,7 @@ window.addEventListener('load', () => {
     };
   };
 
-   const aUpgradeClicked2 = () => {
+  const aUpgradeClicked2 = () => {
     if (money >= costOfAUpgrade2) {
       money -= costOfAUpgrade2;
       moneyPerClick *= 2;
@@ -171,7 +181,7 @@ window.addEventListener('load', () => {
     };
   };
 
-   const aUpgradeClicked3 = () => {
+  const aUpgradeClicked3 = () => {
     if (money >= costOfAUpgrade3) {
       money -= costOfAUpgrade3;
       moneyPerClick *= 2;
@@ -197,6 +207,41 @@ window.addEventListener('load', () => {
       costOfUpgrade1 = Math.round(costOfUpgrade1);
       numOfUpgrade1 += 1;
       moneyPerSecond += dpsOfUpgrade1;
+      if (aUpgradebought4) {
+        if (aUpgradebought5) {
+          if (aUpgradebought6) {
+            if (aUpgradebought7 {
+              if (aUpgradebought8) {
+                if (aUpgradebought9) {
+                  if (aUpgradebought10) {
+                    if (aUpgradebought11) {
+                      if (aUpgradebought12) {
+                        moneyPerSecond += 5000000*numOfUpgrade2 + 5000000*numOfUpgrade3 + 5000000*numOfUpgrade4 + 5000000*numOfUpgrade5 + 5000000*numOfUpgrade6 + 5000000*numOfUpgrade7 + 5000000*numOfUpgrade8 + 5000000*numOfUpgrade9 + 5000000*numOfUpgrade10 + 5000000*numOfUpgrade11 + 5000000*numOfUpgrade12 + 5000000*numOfUpgrade13 + 5000000*numOfUpgrade14 + 5000000*numOfUpgrade15 + 5000000*numOfUpgrade16 + 5000000*numOfUpgrade17;
+                      };
+                    } else {
+                      moneyPerSecond += 500000*numOfUpgrade2 + 500000*numOfUpgrade3 + 500000*numOfUpgrade4 + 500000*numOfUpgrade5 + 500000*numOfUpgrade6 + 500000*numOfUpgrade7 + 500000*numOfUpgrade8 + 500000*numOfUpgrade9 + 500000*numOfUpgrade10 + 500000*numOfUpgrade11 + 500000*numOfUpgrade12 + 500000*numOfUpgrade13 + 500000*numOfUpgrade14 + 500000*numOfUpgrade15 + 500000*numOfUpgrade16 + 500000*numOfUpgrade17;
+                    };
+                  } else {
+                    moneyPerSecond += 50000*numOfUpgrade2 + 50000*numOfUpgrade3 + 50000*numOfUpgrade4 + 50000*numOfUpgrade5 + 50000*numOfUpgrade6 + 50000*numOfUpgrade7 + 50000*numOfUpgrade8 + 50000*numOfUpgrade9 + 50000*numOfUpgrade10 + 50000*numOfUpgrade11 + 50000*numOfUpgrade12 + 50000*numOfUpgrade13 + 50000*numOfUpgrade14 + 50000*numOfUpgrade15 + 50000*numOfUpgrade16 + 50000*numOfUpgrade17;
+                  };
+                } else {
+                  moneyPerSecond += 5000*numOfUpgrade2 + 5000*numOfUpgrade3 + 5000*numOfUpgrade4 + 5000*numOfUpgrade5 + 5000*numOfUpgrade6 + 5000*numOfUpgrade7 + 5000*numOfUpgrade8 + 5000*numOfUpgrade9 + 5000*numOfUpgrade10 + 5000*numOfUpgrade11 + 5000*numOfUpgrade12 + 5000*numOfUpgrade13 + 5000*numOfUpgrade14 + 5000*numOfUpgrade15 + 5000*numOfUpgrade16 + 5000*numOfUpgrade17;
+                };
+              } else {
+                moneyPerSecond += 500*numOfUpgrade2 + 500*numOfUpgrade3 + 500*numOfUpgrade4 + 500*numOfUpgrade5 + 500*numOfUpgrade6 + 500*numOfUpgrade7 + 500*numOfUpgrade8 + 500*numOfUpgrade9 + 500*numOfUpgrade10 + 500*numOfUpgrade11 + 500*numOfUpgrade12 + 500*numOfUpgrade13 + 500*numOfUpgrade14 + 500*numOfUpgrade15 + 500*numOfUpgrade16 + 500*numOfUpgrade17;
+              };
+            } else {
+              moneyPerSecond += 50*numOfUpgrade2 + 50*numOfUpgrade3 + 50*numOfUpgrade4 + 50*numOfUpgrade5 + 50*numOfUpgrade6 + 50*numOfUpgrade7 + 50*numOfUpgrade8 + 50*numOfUpgrade9 + 50*numOfUpgrade10 + 50*numOfUpgrade11 + 50*numOfUpgrade12 + 50*numOfUpgrade13 + 50*numOfUpgrade14 + 50*numOfUpgrade15 + 50*numOfUpgrade16 + 50*numOfUpgrade17;
+            };
+          } else {
+            moneyPerSecond += 5*numOfUpgrade2 + 5*numOfUpgrade3 + 5*numOfUpgrade4 + 5*numOfUpgrade5 + 5*numOfUpgrade6 + 5*numOfUpgrade7 + 5*numOfUpgrade8 + 5*numOfUpgrade9 + 5*numOfUpgrade10 + 5*numOfUpgrade11 + 5*numOfUpgrade12 + 5*numOfUpgrade13 + 5*numOfUpgrade14 + 5*numOfUpgrade15 + 5*numOfUpgrade16 + 5*numOfUpgrade17;
+          };
+        } else {
+          moneyPerSecond += 0.5*numOfUpgrade2 + 0.5*numOfUpgrade3 + 0.5*numOfUpgrade4 + 0.5*numOfUpgrade5 + 0.5*numOfUpgrade6 + 0.5*numOfUpgrade7 + 0.5*numOfUpgrade8 + 0.5*numOfUpgrade9 + 0.5*numOfUpgrade10 + 0.5*numOfUpgrade11 + 0.5*numOfUpgrade12 + 0.5*numOfUpgrade13 + 0.5*numOfUpgrade14 + 0.5*numOfUpgrade15 + 0.5*numOfUpgrade16 + 0.5*numOfUpgrade17;
+        };
+      } else {
+        moneyPerSecond += 0.1*numOfUpgrade2 + 0.1*numOfUpgrade3 + 0.1*numOfUpgrade4 + 0.1*numOfUpgrade5 + 0.1*numOfUpgrade6 + 0.1*numOfUpgrade7 + 0.1*numOfUpgrade8 + 0.1*numOfUpgrade9 + 0.1*numOfUpgrade10 + 0.1*numOfUpgrade11 + 0.1*numOfUpgrade12 + 0.1*numOfUpgrade13 + 0.1*numOfUpgrade14 + 0.1*numOfUpgrade15 + 0.1*numOfUpgrade16 + 0.1*numOfUpgrade17;
+      };
     };
     return money;
   };
