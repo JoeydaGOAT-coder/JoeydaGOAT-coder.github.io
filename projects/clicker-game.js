@@ -189,6 +189,22 @@ window.addEventListener('load', () => {
       dpsOfUpgrade1 *= 2;
     };
   };
+
+
+  const aUpradeClicked4 = () => {
+    if (money >= costOfAUpgrade4) {
+      money -= costOfAUpgrade4;
+      dpsOfUpgrade1 += numOfUpgrade1*(0.1*numOfUpgrade2 + 0.1*numOfUpgrade3 + 0.1*numOfUpgrade4 + 0.1*numOfUpgrade5 + 0.1*numOfUpgrade6 + 0.1*numOfUpgrade7 + 0.1*numOfUpgrade8 + 0.1*numOfUpgrade9 + 0.1*numOfUpgrade10 + 0.1*numOfUpgrade11 + 0.1*numOfUpgrade12 + 0.1*numOfUpgrade13 + 0.1*numOfUpgrade14 + 0.1*numOfUpgrade15 + 0.1*numOfUpgrade16 + 0.1*numOfUpgrade17);
+      moneyPerClick += 0.1*numOfUpgrade2 + 0.1*numOfUpgrade3 + 0.1*numOfUpgrade4 + 0.1*numOfUpgrade5 + 0.1*numOfUpgrade6 + 0.1*numOfUpgrade7 + 0.1*numOfUpgrade8 + 0.1*numOfUpgrade9 + 0.1*numOfUpgrade10 + 0.1*numOfUpgrade11 + 0.1*numOfUpgrade12 + 0.1*numOfUpgrade13 + 0.1*numOfUpgrade14 + 0.1*numOfUpgrade15 + 0.1*numOfUpgrade16 + 0.1*numOfUpgrade17;
+      aUpgradeBought4 = true
+    };
+  };
+
+  const aUpgradeClicked5 = () => {
+    if (money >= costOfAUpgrade5) {
+      money -= costOfAUpgrade5;
+      dpsOfUpgrade1 -= numOfUpgrade1*(0.1*numOfUpgrade2 + 0.1*numOfUpgrade3 + 0.1*numOfUpgrade4 + 0.1*numOfUpgrade5 + 0.1*numOfUpgrade6 + 0.1*numOfUpgrade7 + 0.1*numOfUpgrade8 + 0.1*numOfUpgrade9 + 0.1*numOfUpgrade10 + 0.1*numOfUpgrade11 + 0.1*numOfUpgrade12 + 0.1*numOfUpgrade13 + 0.1*numOfUpgrade14 + 0.1*numOfUpgrade15 + 0.1*numOfUpgrade16 + 0.1*numOfUpgrade17);
+      moneyPerClick -= 0.1*numOfUpgrade2 + 0.1*numOfUpgrade3 + 0.1*numOfUpgrade4 + 0.1*numOfUpgrade5 + 0.1*numOfUpgrade6 + 0.1*numOfUpgrade7 + 0.1*numOfUpgrade8 + 0.1*numOfUpgrade9 + 0.1*numOfUpgrade10 + 0.1*numOfUpgrade11 + 0.1*numOfUpgrade12 + 0.1*numOfUpgrade13 + 0.1*numOfUpgrade14 + 0.1*numOfUpgrade15 + 0.1*numOfUpgrade16 + 0.1*numOfUpgrade17;
   
   setInterval(function () {
     money += moneyPerSecond;
